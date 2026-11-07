@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-card">
+                <p class="subtitle">Create your student profile today!</p>
+                <form id="registrationForm">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="example@gmail.com">
+                            <div class="input-group">
+                                <label for="course">Choose Course </label>
+                                <select id="course">
+                                    <option value="">Select your course</option>
+                                    <option value="BCA">BCA</option>
+                                    <option value="BBA">BBA</option>
+                                    <option value="BCOM">B.Com</option>
+                                    <option value="BSc">B.Sc</option>
+                                    <option value="MCA">MCA</option>
+                                    <option value="MCOM">M.Com</option>
+                                    <option value="MBA">MBA</option>
+                                    <div class="input-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" id="password" placeholder="Minimum 6 characters">
+                                        <button type="submit">Register Now </button>
+                                        <p id="message"></p>
+                                        <script src="script.js"></script>
+                                    </div>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</head></html>
