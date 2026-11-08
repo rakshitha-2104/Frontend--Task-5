@@ -27,29 +27,18 @@ body {
     box-shadow: 0 15px 40px rgba(0, 30, 15, 0.3);
 }
 
-.icon {
-    width: 65px;
-    height: 65px;
-    background: #DDEBDD;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-    margin: 0 auto 15px;
-}
-
 h1 {
     color: #214B3B;
     text-align: center;
     font-size: 25px;
 }
 
-.subtitle {
+.main-title {
     text-align: center;
-    color: #718779;
-    margin: 10px 0 25px;
-    font-size: 14px;
+    color:#214B3B;
+    margin: 15px 0 30px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .input-group {
@@ -61,7 +50,7 @@ label {
     color: #294B3C;
     font-weight: 600;
     margin-bottom: 7px;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 input, select {
